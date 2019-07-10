@@ -1,5 +1,11 @@
 import React from "react";
 
 const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+  return <div>
+  {props.firstNumber} {props.mathOperator} {props.secondNumber}
+
+  Result: {props.finalResult}
+  </div>;
 };
+
+export default Display
